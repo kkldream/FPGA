@@ -1,0 +1,10 @@
+I/O Assignment Analysis Status : Successful - Fri Mar 12 10:54:55 2021
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : t1
+Top-level Entity Name : t1
+Family : Cyclone IV E
+Device : EP4CE115F29C7
+Timing Models : Final
+Total pins : 49 / 529 ( 9 % )
+Total virtual pins : 0
+Total PLLs : 0 / 4 ( 0 % )

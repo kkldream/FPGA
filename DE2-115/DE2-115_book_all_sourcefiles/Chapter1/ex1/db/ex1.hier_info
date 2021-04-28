@@ -1,0 +1,9 @@
+|ex1
+led_red[0] << <GND>
+led_red[1] << <GND>
+led_red[2] << <GND>
+led_red[3] << <GND>
+sw[0] => ~NO_FANOUT~
+sw[1] => ~NO_FANOUT~
+
+

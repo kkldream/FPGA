@@ -1,0 +1,590 @@
+|t1
+CLOCK_50 => CLOCK_50.IN2
+CLOCK2_50 => ~NO_FANOUT~
+CLOCK3_50 => ~NO_FANOUT~
+LEDG[0] << <GND>
+LEDG[1] << <GND>
+LEDG[2] << <GND>
+LEDG[3] << <GND>
+LEDG[4] << <GND>
+LEDG[5] << <GND>
+LEDG[6] << <GND>
+LEDG[7] << <GND>
+LEDG[8] << <GND>
+LEDR[0] << <GND>
+LEDR[1] << <GND>
+LEDR[2] << <GND>
+LEDR[3] << <GND>
+LEDR[4] << <GND>
+LEDR[5] << <GND>
+LEDR[6] << <GND>
+LEDR[7] << clock_all:uc.clock_100ms
+LEDR[8] << clock_1s.DB_MAX_OUTPUT_PORT_TYPE
+LEDR[9] << <GND>
+LEDR[10] << <GND>
+LEDR[11] << <GND>
+LEDR[12] << <GND>
+LEDR[13] << <GND>
+LEDR[14] << <GND>
+LEDR[15] << <GND>
+LEDR[16] << <GND>
+LEDR[17] << <GND>
+KEY[0] => KEY[0].IN1
+KEY[1] => KEY[1].IN1
+KEY[2] => KEY[2].IN1
+KEY[3] => KEY[3].IN1
+SW[0] => ~NO_FANOUT~
+SW[1] => ~NO_FANOUT~
+SW[2] => ~NO_FANOUT~
+SW[3] => ~NO_FANOUT~
+SW[4] => ~NO_FANOUT~
+SW[5] => ~NO_FANOUT~
+SW[6] => ~NO_FANOUT~
+SW[7] => ~NO_FANOUT~
+SW[8] => ~NO_FANOUT~
+SW[9] => ~NO_FANOUT~
+SW[10] => ~NO_FANOUT~
+SW[11] => ~NO_FANOUT~
+SW[12] => ~NO_FANOUT~
+SW[13] => ~NO_FANOUT~
+SW[14] => ~NO_FANOUT~
+SW[15] => ~NO_FANOUT~
+SW[16] => ~NO_FANOUT~
+SW[17] => ~NO_FANOUT~
+HEX0[0] << SEG7_LUT_8:useg.oSEG0
+HEX0[1] << SEG7_LUT_8:useg.oSEG0
+HEX0[2] << SEG7_LUT_8:useg.oSEG0
+HEX0[3] << SEG7_LUT_8:useg.oSEG0
+HEX0[4] << SEG7_LUT_8:useg.oSEG0
+HEX0[5] << SEG7_LUT_8:useg.oSEG0
+HEX0[6] << SEG7_LUT_8:useg.oSEG0
+HEX1[0] << SEG7_LUT_8:useg.oSEG1
+HEX1[1] << SEG7_LUT_8:useg.oSEG1
+HEX1[2] << SEG7_LUT_8:useg.oSEG1
+HEX1[3] << SEG7_LUT_8:useg.oSEG1
+HEX1[4] << SEG7_LUT_8:useg.oSEG1
+HEX1[5] << SEG7_LUT_8:useg.oSEG1
+HEX1[6] << SEG7_LUT_8:useg.oSEG1
+HEX2[0] << SEG7_LUT_8:useg.oSEG2
+HEX2[1] << SEG7_LUT_8:useg.oSEG2
+HEX2[2] << SEG7_LUT_8:useg.oSEG2
+HEX2[3] << SEG7_LUT_8:useg.oSEG2
+HEX2[4] << SEG7_LUT_8:useg.oSEG2
+HEX2[5] << SEG7_LUT_8:useg.oSEG2
+HEX2[6] << SEG7_LUT_8:useg.oSEG2
+HEX3[0] << SEG7_LUT_8:useg.oSEG3
+HEX3[1] << SEG7_LUT_8:useg.oSEG3
+HEX3[2] << SEG7_LUT_8:useg.oSEG3
+HEX3[3] << SEG7_LUT_8:useg.oSEG3
+HEX3[4] << SEG7_LUT_8:useg.oSEG3
+HEX3[5] << SEG7_LUT_8:useg.oSEG3
+HEX3[6] << SEG7_LUT_8:useg.oSEG3
+HEX4[0] << SEG7_LUT_8:useg.oSEG4
+HEX4[1] << SEG7_LUT_8:useg.oSEG4
+HEX4[2] << SEG7_LUT_8:useg.oSEG4
+HEX4[3] << SEG7_LUT_8:useg.oSEG4
+HEX4[4] << SEG7_LUT_8:useg.oSEG4
+HEX4[5] << SEG7_LUT_8:useg.oSEG4
+HEX4[6] << SEG7_LUT_8:useg.oSEG4
+HEX5[0] << SEG7_LUT_8:useg.oSEG5
+HEX5[1] << SEG7_LUT_8:useg.oSEG5
+HEX5[2] << SEG7_LUT_8:useg.oSEG5
+HEX5[3] << SEG7_LUT_8:useg.oSEG5
+HEX5[4] << SEG7_LUT_8:useg.oSEG5
+HEX5[5] << SEG7_LUT_8:useg.oSEG5
+HEX5[6] << SEG7_LUT_8:useg.oSEG5
+HEX6[0] << SEG7_LUT_8:useg.oSEG6
+HEX6[1] << SEG7_LUT_8:useg.oSEG6
+HEX6[2] << SEG7_LUT_8:useg.oSEG6
+HEX6[3] << SEG7_LUT_8:useg.oSEG6
+HEX6[4] << SEG7_LUT_8:useg.oSEG6
+HEX6[5] << SEG7_LUT_8:useg.oSEG6
+HEX6[6] << SEG7_LUT_8:useg.oSEG6
+HEX7[0] << SEG7_LUT_8:useg.oSEG7
+HEX7[1] << SEG7_LUT_8:useg.oSEG7
+HEX7[2] << SEG7_LUT_8:useg.oSEG7
+HEX7[3] << SEG7_LUT_8:useg.oSEG7
+HEX7[4] << SEG7_LUT_8:useg.oSEG7
+HEX7[5] << SEG7_LUT_8:useg.oSEG7
+HEX7[6] << SEG7_LUT_8:useg.oSEG7
+GPIO[0] <> GPIO[0]
+GPIO[1] <> GPIO[1]
+GPIO[2] <> GPIO[2]
+GPIO[3] <> GPIO[3]
+GPIO[4] <> <UNC>
+GPIO[5] <> <UNC>
+GPIO[6] <> <UNC>
+GPIO[7] <> <UNC>
+GPIO[8] <> <UNC>
+GPIO[9] <> <UNC>
+GPIO[10] <> <UNC>
+GPIO[11] <> <UNC>
+GPIO[12] <> <UNC>
+GPIO[13] <> <UNC>
+GPIO[14] <> <UNC>
+GPIO[15] <> <UNC>
+GPIO[16] <> <UNC>
+GPIO[17] <> <UNC>
+GPIO[18] <> <UNC>
+GPIO[19] <> <UNC>
+GPIO[20] <> <UNC>
+GPIO[21] <> <UNC>
+GPIO[22] <> <UNC>
+GPIO[23] <> <UNC>
+GPIO[24] <> <UNC>
+GPIO[25] <> <UNC>
+GPIO[26] <> <UNC>
+GPIO[27] <> <UNC>
+GPIO[28] <> <UNC>
+GPIO[29] <> <UNC>
+GPIO[30] <> <UNC>
+GPIO[31] <> <UNC>
+GPIO[32] <> <UNC>
+GPIO[33] <> <UNC>
+GPIO[34] <> <UNC>
+GPIO[35] <> <UNC>
+
+
+|t1|clock_all:uc
+clk => clk.IN1
+clock_1MHz <= clock_1MHz.DB_MAX_OUTPUT_PORT_TYPE
+clock_100kHz <= clock_100kHz.DB_MAX_OUTPUT_PORT_TYPE
+clock_10kHz <= clock_10kHz.DB_MAX_OUTPUT_PORT_TYPE
+clock_1kHz <= clock_1kHz.DB_MAX_OUTPUT_PORT_TYPE
+clock_100Hz <= clock_100Hz.DB_MAX_OUTPUT_PORT_TYPE
+clock_10Hz <= clock_10Hz.DB_MAX_OUTPUT_PORT_TYPE
+clock_1Hz <= clock_1Hz.DB_MAX_OUTPUT_PORT_TYPE
+clock_01Hz <= divider_10:clk7.clk_div10
+clock_1s <= clock_1Hz.DB_MAX_OUTPUT_PORT_TYPE
+clock_100ms <= clock_10Hz.DB_MAX_OUTPUT_PORT_TYPE
+clock_10ms <= clock_100Hz.DB_MAX_OUTPUT_PORT_TYPE
+clock_1ms <= clock_1kHz.DB_MAX_OUTPUT_PORT_TYPE
+clock_100us <= clock_10kHz.DB_MAX_OUTPUT_PORT_TYPE
+clock_10us <= clock_100kHz.DB_MAX_OUTPUT_PORT_TYPE
+clock_1us <= clock_1MHz.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|t1|clock_all:uc|divider_50:clk0
+clk => clk_div50~reg0.CLK
+clk => count_50[0]~reg0.CLK
+clk => count_50[1]~reg0.CLK
+clk => count_50[2]~reg0.CLK
+clk => count_50[3]~reg0.CLK
+clk => count_50[4]~reg0.CLK
+clk => count_50[5]~reg0.CLK
+clk_div50 <= clk_div50~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_50[0] <= count_50[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_50[1] <= count_50[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_50[2] <= count_50[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_50[3] <= count_50[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_50[4] <= count_50[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_50[5] <= count_50[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|t1|clock_all:uc|divider_10:clk1
+clk => clk_div10~reg0.CLK
+clk => count_10[0]~reg0.CLK
+clk => count_10[1]~reg0.CLK
+clk => count_10[2]~reg0.CLK
+clk => count_10[3]~reg0.CLK
+clk_div10 <= clk_div10~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_10[0] <= count_10[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_10[1] <= count_10[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_10[2] <= count_10[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_10[3] <= count_10[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|t1|clock_all:uc|divider_10:clk2
+clk => clk_div10~reg0.CLK
+clk => count_10[0]~reg0.CLK
+clk => count_10[1]~reg0.CLK
+clk => count_10[2]~reg0.CLK
+clk => count_10[3]~reg0.CLK
+clk_div10 <= clk_div10~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_10[0] <= count_10[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_10[1] <= count_10[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_10[2] <= count_10[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_10[3] <= count_10[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|t1|clock_all:uc|divider_10:clk3
+clk => clk_div10~reg0.CLK
+clk => count_10[0]~reg0.CLK
+clk => count_10[1]~reg0.CLK
+clk => count_10[2]~reg0.CLK
+clk => count_10[3]~reg0.CLK
+clk_div10 <= clk_div10~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_10[0] <= count_10[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_10[1] <= count_10[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_10[2] <= count_10[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_10[3] <= count_10[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|t1|clock_all:uc|divider_10:clk4
+clk => clk_div10~reg0.CLK
+clk => count_10[0]~reg0.CLK
+clk => count_10[1]~reg0.CLK
+clk => count_10[2]~reg0.CLK
+clk => count_10[3]~reg0.CLK
+clk_div10 <= clk_div10~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_10[0] <= count_10[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_10[1] <= count_10[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_10[2] <= count_10[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_10[3] <= count_10[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|t1|clock_all:uc|divider_10:clk5
+clk => clk_div10~reg0.CLK
+clk => count_10[0]~reg0.CLK
+clk => count_10[1]~reg0.CLK
+clk => count_10[2]~reg0.CLK
+clk => count_10[3]~reg0.CLK
+clk_div10 <= clk_div10~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_10[0] <= count_10[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_10[1] <= count_10[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_10[2] <= count_10[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_10[3] <= count_10[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|t1|clock_all:uc|divider_10:clk6
+clk => clk_div10~reg0.CLK
+clk => count_10[0]~reg0.CLK
+clk => count_10[1]~reg0.CLK
+clk => count_10[2]~reg0.CLK
+clk => count_10[3]~reg0.CLK
+clk_div10 <= clk_div10~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_10[0] <= count_10[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_10[1] <= count_10[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_10[2] <= count_10[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_10[3] <= count_10[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|t1|clock_all:uc|divider_10:clk7
+clk => clk_div10~reg0.CLK
+clk => count_10[0]~reg0.CLK
+clk => count_10[1]~reg0.CLK
+clk => count_10[2]~reg0.CLK
+clk => count_10[3]~reg0.CLK
+clk_div10 <= clk_div10~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_10[0] <= count_10[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_10[1] <= count_10[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_10[2] <= count_10[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_10[3] <= count_10[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|t1|clock_timer:utimer
+iclk => tkey_count[0].CLK
+iclk => tkey_count[1].CLK
+iclk => tkey_count[2].CLK
+iclk => tkey_count[3].CLK
+iclk => tkey_count[4].CLK
+iclk => tkey_count[5].CLK
+iclk => tkey_count[6].CLK
+iclk => tkey_count[7].CLK
+iclk => tsec[0].CLK
+iclk => tsec[1].CLK
+iclk => tsec[2].CLK
+iclk => tsec[3].CLK
+iclk => tsec[4].CLK
+iclk => tsec[5].CLK
+iclk => tsec[6].CLK
+iclk => tsec[7].CLK
+iclk => tmin[0].CLK
+iclk => tmin[1].CLK
+iclk => tmin[2].CLK
+iclk => tmin[3].CLK
+iclk => tmin[4].CLK
+iclk => tmin[5].CLK
+iclk => tmin[6].CLK
+iclk => tmin[7].CLK
+iclk => thour[0].CLK
+iclk => thour[1].CLK
+iclk => thour[2].CLK
+iclk => thour[3].CLK
+iclk => thour[4].CLK
+iclk => thour[5].CLK
+iclk => thour[6].CLK
+iclk => thour[7].CLK
+iclk => clk_sec_dly[0].CLK
+iclk => clk_sec_dly[1].CLK
+iclk => clk_sec_dly[2].CLK
+iclk => key1_dly[0].CLK
+iclk => key1_dly[1].CLK
+iclk => key1_dly[2].CLK
+iclk => key2_dly[0].CLK
+iclk => key2_dly[1].CLK
+iclk => key2_dly[2].CLK
+iclk_sec => clk_sec_dly[0].DATAIN
+ikey[0] => thour.OUTPUTSELECT
+ikey[0] => thour.OUTPUTSELECT
+ikey[0] => thour.OUTPUTSELECT
+ikey[0] => thour.OUTPUTSELECT
+ikey[0] => thour.OUTPUTSELECT
+ikey[0] => thour.OUTPUTSELECT
+ikey[0] => thour.OUTPUTSELECT
+ikey[0] => thour.OUTPUTSELECT
+ikey[0] => tmin.OUTPUTSELECT
+ikey[0] => tmin.OUTPUTSELECT
+ikey[0] => tmin.OUTPUTSELECT
+ikey[0] => tmin.OUTPUTSELECT
+ikey[0] => tmin.OUTPUTSELECT
+ikey[0] => tmin.OUTPUTSELECT
+ikey[0] => tmin.OUTPUTSELECT
+ikey[0] => tmin.OUTPUTSELECT
+ikey[0] => tsec.OUTPUTSELECT
+ikey[0] => tsec.OUTPUTSELECT
+ikey[0] => tsec.OUTPUTSELECT
+ikey[0] => tsec.OUTPUTSELECT
+ikey[0] => tsec.OUTPUTSELECT
+ikey[0] => tsec.OUTPUTSELECT
+ikey[0] => tsec.OUTPUTSELECT
+ikey[0] => tsec.OUTPUTSELECT
+ikey[0] => tkey_count.OUTPUTSELECT
+ikey[0] => tkey_count.OUTPUTSELECT
+ikey[0] => tkey_count.OUTPUTSELECT
+ikey[0] => tkey_count.OUTPUTSELECT
+ikey[0] => tkey_count.OUTPUTSELECT
+ikey[0] => tkey_count.OUTPUTSELECT
+ikey[0] => tkey_count.OUTPUTSELECT
+ikey[0] => tkey_count.OUTPUTSELECT
+ikey[1] => key1_dly[0].DATAIN
+ikey[2] => key2_dly[0].DATAIN
+ikey[3] => ~NO_FANOUT~
+ikey[4] => ~NO_FANOUT~
+okey_count[0] <= Mod3.DB_MAX_OUTPUT_PORT_TYPE
+okey_count[1] <= Mod3.DB_MAX_OUTPUT_PORT_TYPE
+okey_count[2] <= Mod3.DB_MAX_OUTPUT_PORT_TYPE
+okey_count[3] <= Mod3.DB_MAX_OUTPUT_PORT_TYPE
+okey_count[4] <= Div3.DB_MAX_OUTPUT_PORT_TYPE
+okey_count[5] <= Div3.DB_MAX_OUTPUT_PORT_TYPE
+okey_count[6] <= Div3.DB_MAX_OUTPUT_PORT_TYPE
+okey_count[7] <= Div3.DB_MAX_OUTPUT_PORT_TYPE
+ohour[0] <= Mod2.DB_MAX_OUTPUT_PORT_TYPE
+ohour[1] <= Mod2.DB_MAX_OUTPUT_PORT_TYPE
+ohour[2] <= Mod2.DB_MAX_OUTPUT_PORT_TYPE
+ohour[3] <= Mod2.DB_MAX_OUTPUT_PORT_TYPE
+ohour[4] <= Div2.DB_MAX_OUTPUT_PORT_TYPE
+ohour[5] <= Div2.DB_MAX_OUTPUT_PORT_TYPE
+ohour[6] <= Div2.DB_MAX_OUTPUT_PORT_TYPE
+ohour[7] <= Div2.DB_MAX_OUTPUT_PORT_TYPE
+omin[0] <= Mod1.DB_MAX_OUTPUT_PORT_TYPE
+omin[1] <= Mod1.DB_MAX_OUTPUT_PORT_TYPE
+omin[2] <= Mod1.DB_MAX_OUTPUT_PORT_TYPE
+omin[3] <= Mod1.DB_MAX_OUTPUT_PORT_TYPE
+omin[4] <= Div1.DB_MAX_OUTPUT_PORT_TYPE
+omin[5] <= Div1.DB_MAX_OUTPUT_PORT_TYPE
+omin[6] <= Div1.DB_MAX_OUTPUT_PORT_TYPE
+omin[7] <= Div1.DB_MAX_OUTPUT_PORT_TYPE
+osec[0] <= Mod0.DB_MAX_OUTPUT_PORT_TYPE
+osec[1] <= Mod0.DB_MAX_OUTPUT_PORT_TYPE
+osec[2] <= Mod0.DB_MAX_OUTPUT_PORT_TYPE
+osec[3] <= Mod0.DB_MAX_OUTPUT_PORT_TYPE
+osec[4] <= Div0.DB_MAX_OUTPUT_PORT_TYPE
+osec[5] <= Div0.DB_MAX_OUTPUT_PORT_TYPE
+osec[6] <= Div0.DB_MAX_OUTPUT_PORT_TYPE
+osec[7] <= Div0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|t1|SEG7_LUT_8:useg
+oSEG0[0] <= SEG7_LUT:u0.port0
+oSEG0[1] <= SEG7_LUT:u0.port0
+oSEG0[2] <= SEG7_LUT:u0.port0
+oSEG0[3] <= SEG7_LUT:u0.port0
+oSEG0[4] <= SEG7_LUT:u0.port0
+oSEG0[5] <= SEG7_LUT:u0.port0
+oSEG0[6] <= SEG7_LUT:u0.port0
+oSEG1[0] <= SEG7_LUT:u1.port0
+oSEG1[1] <= SEG7_LUT:u1.port0
+oSEG1[2] <= SEG7_LUT:u1.port0
+oSEG1[3] <= SEG7_LUT:u1.port0
+oSEG1[4] <= SEG7_LUT:u1.port0
+oSEG1[5] <= SEG7_LUT:u1.port0
+oSEG1[6] <= SEG7_LUT:u1.port0
+oSEG2[0] <= SEG7_LUT:u2.port0
+oSEG2[1] <= SEG7_LUT:u2.port0
+oSEG2[2] <= SEG7_LUT:u2.port0
+oSEG2[3] <= SEG7_LUT:u2.port0
+oSEG2[4] <= SEG7_LUT:u2.port0
+oSEG2[5] <= SEG7_LUT:u2.port0
+oSEG2[6] <= SEG7_LUT:u2.port0
+oSEG3[0] <= SEG7_LUT:u3.port0
+oSEG3[1] <= SEG7_LUT:u3.port0
+oSEG3[2] <= SEG7_LUT:u3.port0
+oSEG3[3] <= SEG7_LUT:u3.port0
+oSEG3[4] <= SEG7_LUT:u3.port0
+oSEG3[5] <= SEG7_LUT:u3.port0
+oSEG3[6] <= SEG7_LUT:u3.port0
+oSEG4[0] <= SEG7_LUT:u4.port0
+oSEG4[1] <= SEG7_LUT:u4.port0
+oSEG4[2] <= SEG7_LUT:u4.port0
+oSEG4[3] <= SEG7_LUT:u4.port0
+oSEG4[4] <= SEG7_LUT:u4.port0
+oSEG4[5] <= SEG7_LUT:u4.port0
+oSEG4[6] <= SEG7_LUT:u4.port0
+oSEG5[0] <= SEG7_LUT:u5.port0
+oSEG5[1] <= SEG7_LUT:u5.port0
+oSEG5[2] <= SEG7_LUT:u5.port0
+oSEG5[3] <= SEG7_LUT:u5.port0
+oSEG5[4] <= SEG7_LUT:u5.port0
+oSEG5[5] <= SEG7_LUT:u5.port0
+oSEG5[6] <= SEG7_LUT:u5.port0
+oSEG6[0] <= SEG7_LUT:u6.port0
+oSEG6[1] <= SEG7_LUT:u6.port0
+oSEG6[2] <= SEG7_LUT:u6.port0
+oSEG6[3] <= SEG7_LUT:u6.port0
+oSEG6[4] <= SEG7_LUT:u6.port0
+oSEG6[5] <= SEG7_LUT:u6.port0
+oSEG6[6] <= SEG7_LUT:u6.port0
+oSEG7[0] <= SEG7_LUT:u7.port0
+oSEG7[1] <= SEG7_LUT:u7.port0
+oSEG7[2] <= SEG7_LUT:u7.port0
+oSEG7[3] <= SEG7_LUT:u7.port0
+oSEG7[4] <= SEG7_LUT:u7.port0
+oSEG7[5] <= SEG7_LUT:u7.port0
+oSEG7[6] <= SEG7_LUT:u7.port0
+iDIG[0] => iDIG[0].IN1
+iDIG[1] => iDIG[1].IN1
+iDIG[2] => iDIG[2].IN1
+iDIG[3] => iDIG[3].IN1
+iDIG[4] => iDIG[4].IN1
+iDIG[5] => iDIG[5].IN1
+iDIG[6] => iDIG[6].IN1
+iDIG[7] => iDIG[7].IN1
+iDIG[8] => iDIG[8].IN1
+iDIG[9] => iDIG[9].IN1
+iDIG[10] => iDIG[10].IN1
+iDIG[11] => iDIG[11].IN1
+iDIG[12] => iDIG[12].IN1
+iDIG[13] => iDIG[13].IN1
+iDIG[14] => iDIG[14].IN1
+iDIG[15] => iDIG[15].IN1
+iDIG[16] => iDIG[16].IN1
+iDIG[17] => iDIG[17].IN1
+iDIG[18] => iDIG[18].IN1
+iDIG[19] => iDIG[19].IN1
+iDIG[20] => iDIG[20].IN1
+iDIG[21] => iDIG[21].IN1
+iDIG[22] => iDIG[22].IN1
+iDIG[23] => iDIG[23].IN1
+iDIG[24] => iDIG[24].IN1
+iDIG[25] => iDIG[25].IN1
+iDIG[26] => iDIG[26].IN1
+iDIG[27] => iDIG[27].IN1
+iDIG[28] => iDIG[28].IN1
+iDIG[29] => iDIG[29].IN1
+iDIG[30] => iDIG[30].IN1
+iDIG[31] => iDIG[31].IN1
+
+
+|t1|SEG7_LUT_8:useg|SEG7_LUT:u0
+oSEG[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+iDIG[0] => Decoder0.IN3
+iDIG[1] => Decoder0.IN2
+iDIG[2] => Decoder0.IN1
+iDIG[3] => Decoder0.IN0
+
+
+|t1|SEG7_LUT_8:useg|SEG7_LUT:u1
+oSEG[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+iDIG[0] => Decoder0.IN3
+iDIG[1] => Decoder0.IN2
+iDIG[2] => Decoder0.IN1
+iDIG[3] => Decoder0.IN0
+
+
+|t1|SEG7_LUT_8:useg|SEG7_LUT:u2
+oSEG[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+iDIG[0] => Decoder0.IN3
+iDIG[1] => Decoder0.IN2
+iDIG[2] => Decoder0.IN1
+iDIG[3] => Decoder0.IN0
+
+
+|t1|SEG7_LUT_8:useg|SEG7_LUT:u3
+oSEG[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+iDIG[0] => Decoder0.IN3
+iDIG[1] => Decoder0.IN2
+iDIG[2] => Decoder0.IN1
+iDIG[3] => Decoder0.IN0
+
+
+|t1|SEG7_LUT_8:useg|SEG7_LUT:u4
+oSEG[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+iDIG[0] => Decoder0.IN3
+iDIG[1] => Decoder0.IN2
+iDIG[2] => Decoder0.IN1
+iDIG[3] => Decoder0.IN0
+
+
+|t1|SEG7_LUT_8:useg|SEG7_LUT:u5
+oSEG[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+iDIG[0] => Decoder0.IN3
+iDIG[1] => Decoder0.IN2
+iDIG[2] => Decoder0.IN1
+iDIG[3] => Decoder0.IN0
+
+
+|t1|SEG7_LUT_8:useg|SEG7_LUT:u6
+oSEG[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+iDIG[0] => Decoder0.IN3
+iDIG[1] => Decoder0.IN2
+iDIG[2] => Decoder0.IN1
+iDIG[3] => Decoder0.IN0
+
+
+|t1|SEG7_LUT_8:useg|SEG7_LUT:u7
+oSEG[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+iDIG[0] => Decoder0.IN3
+iDIG[1] => Decoder0.IN2
+iDIG[2] => Decoder0.IN1
+iDIG[3] => Decoder0.IN0
+
+

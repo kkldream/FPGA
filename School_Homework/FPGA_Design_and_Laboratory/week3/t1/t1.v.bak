@@ -1,0 +1,24 @@
+module t1(sw, key, ledr, ledg);
+	input [17:0] sw;
+	output [17:0] ledr;
+	output [8:0] ledg;
+	output [3:0] key;
+	reg led;
+	
+	assign ledr[0] = sw[0] ? 1'b1 : 1'b0;
+	assign ledr[1] = sw[1] ? 1'b1 : 1'b0;
+	assign ledr[2] = (sw[0] == sw[1]) ? 1'b1 : 1'b0;
+	assign ledr[3] = led;
+	always@(sw)
+	begin
+		if (sw[0])
+			if (sw[1])
+				led = 1'b1;
+			else
+				led = 1'b0;
+		else
+			led = 1'b0;
+				
+	end
+
+endmodule

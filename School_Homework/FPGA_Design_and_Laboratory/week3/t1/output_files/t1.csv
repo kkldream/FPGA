@@ -1,0 +1,70 @@
+# Copyright (C) 2017  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details.
+
+# Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+# File: D:\Users\kkldream\Desktop\FPGA\output_files\t1.csv
+# Generated on: Fri Mar 12 10:42:45 2021
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus Prime software.
+
+To,Direction,Location,I/O Bank,VREF Group,Fitter Location,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair,Strict Preservation
+key[3],Output,PIN_R24,5,B5_N0,PIN_AH10,,,,,,
+key[2],Output,PIN_N21,6,B6_N2,PIN_Y16,,,,,,
+key[1],Output,PIN_M21,6,B6_N1,PIN_Y24,,,,,,
+key[0],Output,PIN_M23,6,B6_N2,PIN_R27,,,,,,
+ledg[8],Output,,,,PIN_AD27,,,,,,
+ledg[7],Output,,,,PIN_AA4,,,,,,
+ledg[6],Output,,,,PIN_AA16,,,,,,
+ledg[5],Output,,,,PIN_AA21,,,,,,
+ledg[4],Output,,,,PIN_E22,,,,,,
+ledg[3],Output,,,,PIN_F5,,,,,,
+ledg[2],Output,,,,PIN_AG17,,,,,,
+ledg[1],Output,,,,PIN_E18,,,,,,
+ledg[0],Output,,,,PIN_AF9,,,,,,
+ledr[17],Output,,,,PIN_AD25,,,,,,
+ledr[16],Output,,,,PIN_AB19,,,,,,
+ledr[15],Output,,,,PIN_AF10,,,,,,
+ledr[14],Output,,,,PIN_F3,,,,,,
+ledr[13],Output,,,,PIN_AE14,,,,,,
+ledr[12],Output,,,,PIN_AE26,,,,,,
+ledr[11],Output,,,,PIN_B10,,,,,,
+ledr[10],Output,,,,PIN_AB22,,,,,,
+ledr[9],Output,,,,PIN_AF8,,,,,,
+ledr[8],Output,,,,PIN_AD7,,,,,,
+ledr[7],Output,,,,PIN_E7,,,,,,
+ledr[6],Output,,,,PIN_W7,,,,,,
+ledr[5],Output,,,,PIN_G13,,,,,,
+ledr[4],Output,,,,PIN_AE12,,,,,,
+ledr[3],Output,PIN_F21,7,B7_N0,PIN_AB26,,,,,,
+ledr[2],Output,PIN_E19,7,B7_N0,PIN_AC27,,,,,,
+ledr[1],Output,PIN_F19,7,B7_N0,PIN_Y23,,,,,,
+ledr[0],Output,PIN_G19,7,B7_N2,PIN_AA25,,,,,,
+sw[17],Input,,,,PIN_AE8,,,,,,
+sw[16],Input,,,,PIN_AE17,,,,,,
+sw[15],Input,,,,PIN_E4,,,,,,
+sw[14],Input,,,,PIN_AB18,,,,,,
+sw[13],Input,,,,PIN_AF24,,,,,,
+sw[12],Input,,,,PIN_AE10,,,,,,
+sw[11],Input,,,,PIN_K27,,,,,,
+sw[10],Input,,,,PIN_D13,,,,,,
+sw[9],Input,,,,PIN_AE15,,,,,,
+sw[8],Input,,,,PIN_C21,,,,,,
+sw[7],Input,,,,PIN_C27,,,,,,
+sw[6],Input,,,,PIN_D25,,,,,,
+sw[5],Input,,,,PIN_A18,,,,,,
+sw[4],Input,,,,PIN_L21,,,,,,
+sw[3],Input,,,,PIN_B23,,,,,,
+sw[2],Input,,,,PIN_F26,,,,,,
+sw[1],Input,PIN_AC28,5,B5_N2,PIN_AC28,2.5 V,,,,,
+sw[0],Input,PIN_AB28,5,B5_N1,PIN_AB28,2.5 V,,,,,

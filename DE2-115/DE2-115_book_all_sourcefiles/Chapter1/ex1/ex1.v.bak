@@ -1,0 +1,5 @@
+module ex1 (sw,led_red);
+	input [3:0] sw;
+	output [3:0] led_red;
+	assign led_red = sw;
+endmodule
