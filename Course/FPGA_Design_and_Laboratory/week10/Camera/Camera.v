@@ -515,9 +515,9 @@ wire			   Read;
 reg	[11:0]	rCCD_DATA;
 reg				rCCD_LVAL;
 reg				rCCD_FVAL;
-reg	[11:0]	sCCD_R;
-reg	[11:0]	sCCD_G;
-reg	[11:0]	sCCD_B;
+wire	[11:0]	sCCD_R;
+wire	[11:0]	sCCD_G;
+wire	[11:0]	sCCD_B;
 wire	[11:0]	tCCD_R;
 wire	[11:0]	tCCD_G;
 wire	[11:0]	tCCD_B;
@@ -571,28 +571,38 @@ begin
 	rCCD_FVAL	<=	CAMERA_FVAL;
 end
 
-always@(negedge CAMERA_PIXCLK)
-begin
-	if (X_Cont > 10 && X_Cont < 20) begin
-		sCCD_R <= 12'd200;
-		sCCD_G <= 12'd200;
-		sCCD_B <= 12'd200;
-	end else if (X_Cont > HIGHT-20 && X_Cont < HIGHT-10) begin
-		sCCD_R <= 12'd200;
-		sCCD_G <= 12'd200;
-		sCCD_B <= 12'd200;
-	end else if (X_Cont > HIGHT/2-50 && X_Cont < HIGHT/2+50 &&
-					Y_Cont > WIGHT/2-50 && Y_Cont < WIGHT/2+50) begin
-		sCCD_R <= tCCD_G;
-		sCCD_G <= tCCD_R;
-		sCCD_B <= tCCD_B;
-	end else begin
-		sCCD_R <= tCCD_R;
-		sCCD_G <= tCCD_G;
-		sCCD_B <= tCCD_B;
-	end
-end
-
+//always@(negedge CAMERA_PIXCLK)
+//begin
+//	if (X_Cont > 10 && X_Cont < 20) begin
+//		sCCD_R <= 12'd200;
+//		sCCD_G <= 12'd200;
+//		sCCD_B <= 12'd200;
+//	end else if (X_Cont > HIGHT-20 && X_Cont < HIGHT-10) begin
+//		sCCD_R <= 12'd200;
+//		sCCD_G <= 12'd200;
+//		sCCD_B <= 12'd200;
+//	end else if (X_Cont > HIGHT/2-50 && X_Cont < HIGHT/2+50 &&
+//					Y_Cont > WIGHT/2-50 && Y_Cont < WIGHT/2+50) begin
+//		sCCD_R <= tCCD_G;
+//		sCCD_G <= tCCD_R;
+//		sCCD_B <= tCCD_B;
+//	end else begin
+//		sCCD_R <= tCCD_R;
+//		sCCD_G <= tCCD_G;
+//		sCCD_B <= tCCD_B;
+//	end
+//end
+//draw
+Draw draw ( .iCLK(CAMERA_PIXCLK),
+				.iCLK50(CLOCK_50),
+				.iX_Cont(X_Cont),
+				.iY_Cont(Y_Cont),
+				.iRed(tCCD_R),
+				.iGreen(tCCD_G),
+				.iBlue(tCCD_B),
+				.oRed(sCCD_R),
+				.oGreen(sCCD_G),
+				.oBlue(sCCD_B));
 //reset signals 
 Reset_Delay			u2	(	.iCLK(CLOCK2_50),
 							.iRST(KEY[0]),

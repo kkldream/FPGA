@@ -1,5 +1,5 @@
 Assembler report for Camera
-Fri Apr 30 11:51:20 2021
+Wed May 05 20:24:13 2021
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -10,7 +10,7 @@ Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: D:/Users/kkldream/Desktop/FPGA/Course/FPGA_Design_and_Laboratory/week10/Camera/Camera.sof
+  5. Assembler Device Options: C:/Users/kk693/Desktop/Git-Project/FPGA/Course/FPGA_Design_and_Laboratory/week10/Camera/Camera.sof
   6. Assembler Messages
 
 
@@ -37,7 +37,7 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Fri Apr 30 11:51:20 2021 ;
+; Assembler Status      ; Successful - Wed May 05 20:24:13 2021 ;
 ; Revision Name         ; Camera                                ;
 ; Top-level Entity Name ; Camera                                ;
 ; Family                ; Cyclone IV E                          ;
@@ -52,23 +52,23 @@ refer to the applicable agreement for further details.
 +--------+---------+---------------+
 
 
-+-------------------------------------------------------------------------------------------+
-; Assembler Generated Files                                                                 ;
-+-------------------------------------------------------------------------------------------+
-; File Name                                                                                 ;
-+-------------------------------------------------------------------------------------------+
-; D:/Users/kkldream/Desktop/FPGA/Course/FPGA_Design_and_Laboratory/week10/Camera/Camera.sof ;
-+-------------------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------+
+; Assembler Generated Files                                                                          ;
++----------------------------------------------------------------------------------------------------+
+; File Name                                                                                          ;
++----------------------------------------------------------------------------------------------------+
+; C:/Users/kk693/Desktop/Git-Project/FPGA/Course/FPGA_Design_and_Laboratory/week10/Camera/Camera.sof ;
++----------------------------------------------------------------------------------------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: D:/Users/kkldream/Desktop/FPGA/Course/FPGA_Design_and_Laboratory/week10/Camera/Camera.sof ;
-+----------------+----------------------------------------------------------------------------------------------------+
-; Option         ; Setting                                                                                            ;
-+----------------+----------------------------------------------------------------------------------------------------+
-; JTAG usercode  ; 0x0067B8A3                                                                                         ;
-; Checksum       ; 0x0067B8A3                                                                                         ;
-+----------------+----------------------------------------------------------------------------------------------------+
++------------------------------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/Users/kk693/Desktop/Git-Project/FPGA/Course/FPGA_Design_and_Laboratory/week10/Camera/Camera.sof ;
++----------------+-------------------------------------------------------------------------------------------------------------+
+; Option         ; Setting                                                                                                     ;
++----------------+-------------------------------------------------------------------------------------------------------------+
+; JTAG usercode  ; 0x00686875                                                                                                  ;
+; Checksum       ; 0x00686875                                                                                                  ;
++----------------+-------------------------------------------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -77,15 +77,15 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
-    Info: Processing started: Fri Apr 30 11:51:16 2021
+    Info: Processing started: Wed May 05 20:24:10 2021
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off Camera -c Camera
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4689 megabytes
-    Info: Processing ended: Fri Apr 30 11:51:20 2021
-    Info: Elapsed time: 00:00:04
-    Info: Total CPU time (on all processors): 00:00:04
+    Info: Processing ended: Wed May 05 20:24:13 2021
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:03
 
 
