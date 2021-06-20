@@ -1,0 +1,13 @@
+
+State Machine - |Camera|ltp_controller:u1|ans
+Name ans.011 ans.010 ans.001 ans.000 
+ans.000 0 0 0 0 
+ans.001 0 0 1 1 
+ans.010 0 1 0 1 
+ans.011 1 0 0 1 
+
+State Machine - |Camera|I2C_CCD_Config:u8|mSetup_ST
+Name mSetup_ST.0000 mSetup_ST.0010 mSetup_ST.0001 
+mSetup_ST.0000 0 0 0 
+mSetup_ST.0001 1 0 1 
+mSetup_ST.0010 1 1 0 
