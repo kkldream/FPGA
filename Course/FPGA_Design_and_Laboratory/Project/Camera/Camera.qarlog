@@ -1,0 +1,36 @@
+Quartus Prime Archive log --	C:/Users/kk693/Desktop/Git-Repositiry/FPGA/Course/FPGA_Design_and_Laboratory/Project/Camera/Camera.qarlog
+
+Archive:	C:/Users/kk693/Desktop/Git-Repositiry/FPGA/Course/FPGA_Design_and_Laboratory/Project/Camera/Camera.qar
+Date:		Tue Jun 22 13:45:52 2021
+Quartus Prime		17.1.0 Build 590 10/25/2017 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/kk693/Desktop/Git-Repositiry/FPGA/Course/FPGA_Design_and_Laboratory/Project/Camera/Camera.qpf
+C:/Users/kk693/Desktop/Git-Repositiry/FPGA/Course/FPGA_Design_and_Laboratory/Project/Camera/Camera.qsf
+C:/Users/kk693/Desktop/Git-Repositiry/FPGA/Course/FPGA_Design_and_Laboratory/Project/Camera/Camera.sdc
+C:/Users/kk693/Desktop/Git-Repositiry/FPGA/Course/FPGA_Design_and_Laboratory/Project/Camera/Camera_assignment_defaults.qdf
+C:/Users/kk693/Desktop/Git-Repositiry/FPGA/Course/FPGA_Design_and_Laboratory/Project/Camera/Sdram_Control/Sdram_Control.v
+C:/Users/kk693/Desktop/Git-Repositiry/FPGA/Course/FPGA_Design_and_Laboratory/Project/Camera/Sdram_Control/Sdram_Params.h
+C:/Users/kk693/Desktop/Git-Repositiry/FPGA/Course/FPGA_Design_and_Laboratory/Project/Camera/Sdram_Control/Sdram_RD_FIFO.v
+C:/Users/kk693/Desktop/Git-Repositiry/FPGA/Course/FPGA_Design_and_Laboratory/Project/Camera/Sdram_Control/Sdram_WR_FIFO.v
+C:/Users/kk693/Desktop/Git-Repositiry/FPGA/Course/FPGA_Design_and_Laboratory/Project/Camera/Sdram_Control/command.v
+C:/Users/kk693/Desktop/Git-Repositiry/FPGA/Course/FPGA_Design_and_Laboratory/Project/Camera/Sdram_Control/control_interface.v
+C:/Users/kk693/Desktop/Git-Repositiry/FPGA/Course/FPGA_Design_and_Laboratory/Project/Camera/Sdram_Control/sdr_data_path.v
+C:/Users/kk693/Desktop/Git-Repositiry/FPGA/Course/FPGA_Design_and_Laboratory/Project/Camera/V/CCD_Capture.v
+C:/Users/kk693/Desktop/Git-Repositiry/FPGA/Course/FPGA_Design_and_Laboratory/Project/Camera/V/I2C_CCD_Config.v
+C:/Users/kk693/Desktop/Git-Repositiry/FPGA/Course/FPGA_Design_and_Laboratory/Project/Camera/V/I2C_Controller.v
+C:/Users/kk693/Desktop/Git-Repositiry/FPGA/Course/FPGA_Design_and_Laboratory/Project/Camera/V/Line_Buffer.v
+C:/Users/kk693/Desktop/Git-Repositiry/FPGA/Course/FPGA_Design_and_Laboratory/Project/Camera/V/RAW2RGB.v
+C:/Users/kk693/Desktop/Git-Repositiry/FPGA/Course/FPGA_Design_and_Laboratory/Project/Camera/V/Reset_Delay.v
+C:/Users/kk693/Desktop/Git-Repositiry/FPGA/Course/FPGA_Design_and_Laboratory/Project/Camera/V/SEG7_LUT.v
+C:/Users/kk693/Desktop/Git-Repositiry/FPGA/Course/FPGA_Design_and_Laboratory/Project/Camera/V/SEG7_LUT_8.v
+C:/Users/kk693/Desktop/Git-Repositiry/FPGA/Course/FPGA_Design_and_Laboratory/Project/Camera/V/ltp_controller.v
+C:/Users/kk693/Desktop/Git-Repositiry/FPGA/Course/FPGA_Design_and_Laboratory/Project/Camera/V/sdram_pll.bsf
+C:/Users/kk693/Desktop/Git-Repositiry/FPGA/Course/FPGA_Design_and_Laboratory/Project/Camera/V/sdram_pll.ppf
+C:/Users/kk693/Desktop/Git-Repositiry/FPGA/Course/FPGA_Design_and_Laboratory/Project/Camera/V/sdram_pll.qip
+C:/Users/kk693/Desktop/Git-Repositiry/FPGA/Course/FPGA_Design_and_Laboratory/Project/Camera/V/sdram_pll.v
+C:/Users/kk693/Desktop/Git-Repositiry/FPGA/Course/FPGA_Design_and_Laboratory/Project/Camera/camera.v
+	======= Total: 25 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

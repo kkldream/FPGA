@@ -4,10 +4,10 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EPCS64) Path("C:/Users/kk693/Desktop/Git-Repositiry/FPGA/Course/FPGA_Design_and_Laboratory/Project/Camera/") File("Camera.pof") MfrSpec(OpMask(1) Child_OpMask(1 1));
+		Device PartName(EP4CE115F29) Path("C:/Users/kk693/Desktop/Git-Repositiry/FPGA/Course/FPGA_Design_and_Laboratory/Project/Camera/") File("Camera.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 
 AlteraBegin;
-	ChainType(asc);
+	ChainType(JTAG);
 AlteraEnd;
