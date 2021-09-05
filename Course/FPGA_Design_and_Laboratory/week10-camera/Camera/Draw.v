@@ -1,13 +1,15 @@
-module Draw (iCLK,
-				 iCLK50,
-				 iRed,
-				 iGreen,
-				 iBlue,
-				 oRed,
-				 oGreen,
-				 oBlue,
-				 iX_Cont,
-				 iY_Cont);
+module Draw (
+	iCLK,
+	iCLK50,
+	iRed,
+	iGreen,
+	iBlue,
+	oRed,
+	oGreen,
+	oBlue,
+	iX_Cont,
+	iY_Cont
+);
 				 
 parameter WIGHT = 799; 
 parameter HIGHT = 479;
